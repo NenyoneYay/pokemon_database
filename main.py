@@ -2,8 +2,10 @@ import json
 
 with open('Database.json', 'r') as f:
     data = json.load(f)
+    pokemonDict = json.loads(data)
+# print(updatedData)
+print(pokemonDict)
 
-print(json.dumps(data, indent = 4))
 
 
 
