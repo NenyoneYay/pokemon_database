@@ -10,7 +10,9 @@ with open('Database.json', 'r') as f:
 
 
 def main():
-    generatePokemon(pokemonList)
+    grassList = filterType(pokemonList, "Grass")
+    generatePokemon(grassList)
+    # generatePokemon(pokemonList)
     return
 
 def generatePokemon(list):
@@ -73,6 +75,13 @@ def generatePokemon(list):
     while (randDecoration["decoration"] != True):
         randDecoration = getRandomPokemon(list)
     print (f"Decoration: {randDecoration["name"]}")
+
+def filterType(list, type):
+    filteredList = []
+    for pokemon in list:
+        if ((pokemon["type1"] == type) or (pokemon["type2"] == type)):
+            filteredList.append(pokemon)
+    return filteredList
 
 
 def getRandomPokemon(pokemonList): ## Takes a List of dicts as a parameter, returns a single dict randomly from that list
