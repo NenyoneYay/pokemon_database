@@ -14,9 +14,9 @@
 			"back_leg": true,
 			"tail": false,
 			"ears": true,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": true,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": true,
 			"decoration": true
 		},
 		{
@@ -32,9 +32,9 @@
 			"back_leg": true,
 			"tail": false,
 			"ears": true,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": true,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": true,
 			"decoration": true
 		},
 		{
@@ -50,9 +50,9 @@
 			"back_leg": true,
 			"tail": false,
 			"ears": true,
-			"head_accesory": false,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": false,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": true
 		},
 		{
@@ -68,9 +68,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": false,
-			"head_accesory": false,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": false,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": false
 		},
 		{
@@ -86,9 +86,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": false,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": false
 		},
 		{
@@ -104,9 +104,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": false,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": true 
 		},
 		{
@@ -122,9 +122,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": false,
-			"head_accesory": false,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": false,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": true
 		},
 		{
@@ -140,9 +140,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": false,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": true
 		},
 		{
@@ -158,9 +158,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": true,
-			"head_accesory": false,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": false,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": true
 		},
 		{
@@ -176,9 +176,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": false,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": true
 		},
 		{
@@ -194,9 +194,9 @@
 			"back_leg": false,
 			"tail": false,
 			"ears": false,
-			"head_accesory": false,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": false,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": false
 		},
 		{
@@ -212,9 +212,9 @@
 			"back_leg": true,
 			"tail": false,
 			"ears": false,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": true
 		},
 		{
@@ -230,9 +230,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": false,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": false
 		},
 		{
@@ -248,9 +248,9 @@
 			"back_leg": false,
 			"tail": false,
 			"ears": false,
-			"head_accesory": false,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": false,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": false
 		},
 		{
@@ -266,9 +266,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": false,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": true
 		},
 		{
@@ -284,9 +284,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": false,
-			"head_accesory": true,
-			"neck_accesory": true,
-			"leg_accesory": false,
+			"head_accessory": true,
+			"neck_accessory": true,
+			"leg_accessory": false,
 			"decoration": true
 		},
 		{
@@ -302,9 +302,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": false,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": true
 		},
 		{
@@ -320,9 +320,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": false,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": true
 		},
 		{
@@ -338,9 +338,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": true,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": false
 		},
 		{
@@ -356,9 +356,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": true,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": true,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": true,
 			"decoration": true
 		},
 		{
@@ -374,9 +374,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": false,
-			"head_accesory": true,
-			"neck_accesory": true,
-			"leg_accesory": false,
+			"head_accessory": true,
+			"neck_accessory": true,
+			"leg_accessory": false,
 			"decoration": false
 		},
 		{
@@ -392,9 +392,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": false,
-			"head_accesory": true,
-			"neck_accesory": true,
-			"leg_accesory": false,
+			"head_accessory": true,
+			"neck_accessory": true,
+			"leg_accessory": false,
 			"decoration": false
 		},
 		{
@@ -410,9 +410,9 @@
 			"back_leg": false,
 			"tail": true,
 			"ears": false,
-			"head_accesory": false,
-			"neck_accesory": true,
-			"leg_accesory": false,
+			"head_accessory": false,
+			"neck_accessory": true,
+			"leg_accessory": false,
 			"decoration": true
 		},
 		{
@@ -428,9 +428,9 @@
 			"back_leg": false,
 			"tail": true,
 			"ears": false,
-			"head_accesory": false,
-			"neck_accesory": true,
-			"leg_accesory": false,
+			"head_accessory": false,
+			"neck_accessory": true,
+			"leg_accessory": false,
 			"decoration": true
 		},
 		{
@@ -446,9 +446,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": true,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": false,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": false,
 			"decoration": false
 		},
 		{
@@ -464,9 +464,9 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": true,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": true,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": true,
 			"decoration": false
 		},
 		{
@@ -482,9 +482,27 @@
 			"back_leg": true,
 			"tail": true,
 			"ears": true,
-			"head_accesory": true,
-			"neck_accesory": false,
-			"leg_accesory": true,
+			"head_accessory": true,
+			"neck_accessory": false,
+			"leg_accessory": true,
+			"decoration": true
+		},
+		{
+			"ID_Number": "028", 
+			"name": "Sandslash",
+			"type1": "Ground",
+			"type2": "NULL",
+			"head": true,
+			"body": true,
+			"eyes": true,
+			"mouth": true,
+			"front_leg": true,
+			"back_leg": true,
+			"tail": true,
+			"ears": true,
+			"head_accessory": true,
+			"neck_accessory": true,
+			"leg_accessory": false,
 			"decoration": true
 		}
 	]
