@@ -1,4 +1,4 @@
-﻿{ 
+{ 
 	"Pokemon":
 	[
 		{
@@ -507,7 +507,7 @@
 		},
 		{
 			"ID_Number": "029", 
-			"name": "Nidoran♀",
+			"name": "Nidoran_f",
 			"type1": "Poison",
 			"type2": "NULL",
 			"head": true,
@@ -561,7 +561,7 @@
 		},
 		{
 			"ID_Number": "032", 
-			"name": "Nidoran♂",
+			"name": "Nidoran_m",
 			"type1": "Poison",
 			"type2": "NULL",
 			"head": true,
