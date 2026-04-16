@@ -17,7 +17,10 @@
 			"head_accesory": True,
 			"neck_accesory": True,
 			"leg_accesory": True,
-			"decoration": True,
+			"decoration": True
+		},
+		{
+			"ID_Number": "002"
 		}
 	]
 }
