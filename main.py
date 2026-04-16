@@ -1,8 +1,9 @@
 import json
 
-with open('database.json') as f:
-    print(f)
+with open('Database.json', 'r') as f:
+    data = json.load(f)
 
+print(json.dumps(data, indent = 4))
 
 
 
