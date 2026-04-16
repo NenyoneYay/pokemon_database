@@ -1,4 +1,4 @@
-﻿{ 
+{ 
 	"Pokemon":
 	[
 		{
@@ -503,78 +503,6 @@
 			"head_accessory": true,
 			"neck_accessory": true,
 			"leg_accessory": false,
-			"decoration": true
-		},
-		{
-			"ID_Number": "029", 
-			"name": "Nidoran♀",
-			"type1": "Poison",
-			"type2": "NULL",
-			"head": true,
-			"body": true,
-			"eyes": true,
-			"mouth": true,
-			"front_leg": true,
-			"back_leg": true,
-			"tail": false,
-			"ears": true,
-			"head_accessory": true,
-			"neck_accessory": false,
-			"leg_accessory": true,
-			"decoration": true
-		},
-		{
-			"ID_Number": "030", 
-			"name": "Nidorina",
-			"type1": "Poison",
-			"type2": "NULL",
-			"head": true,
-			"body": true,
-			"eyes": true,
-			"mouth": true,
-			"front_leg": true,
-			"back_leg": true,
-			"tail": true,
-			"ears": true,
-			"head_accessory": false,
-			"neck_accessory": false,
-			"leg_accessory": true,
-			"decoration": true
-		},
-		{
-			"ID_Number": "031", 
-			"name": "Nidoqueen",
-			"type1": "Poison",
-			"type2": "Ground",
-			"head": true,
-			"body": true,
-			"eyes": true,
-			"mouth": true,
-			"front_leg": true,
-			"back_leg": true,
-			"tail": true,
-			"ears": true,
-			"head_accessory": true,
-			"neck_accessory": true,
-			"leg_accessory": false,
-			"decoration": true
-		},
-		{
-			"ID_Number": "032", 
-			"name": "Nidoran♂",
-			"type1": "Poison",
-			"type2": "NULL",
-			"head": true,
-			"body": true,
-			"eyes": true,
-			"mouth": true,
-			"front_leg": true,
-			"back_leg": true,
-			"tail": false,
-			"ears": true,
-			"head_accessory": true,
-			"neck_accessory": false,
-			"leg_accessory": true,
 			"decoration": true
 		}
 	]
