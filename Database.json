@@ -36,6 +36,42 @@
 			"neck_accesory": "FALSE",
 			"leg_accesory": "TRUE",
 			"decoration": "TRUE"
+		},
+		{
+			"ID_Number": "003", 
+			"name": "Venusaur",
+			"type1": "Grass",
+			"type2": "Poison",
+			"head": "TRUE",
+			"body": "TRUE",
+			"eyes": "TRUE",
+			"mouth": "TRUE",
+			"front_leg": "TRUE",
+			"back_leg": "TRUE",
+			"tail": "FALSE",
+			"ears": "TRUE",
+			"head_accesory": "FALSE",
+			"neck_accesory": "FALSE",
+			"leg_accesory": "FALSE",
+			"decoration": "TRUE"
+		},
+		{
+			"ID_Number": "004", 
+			"name": "Charmander",
+			"type1": "Fire",
+			"type2": "NULL",
+			"head": "TRUE",
+			"body": "TRUE",
+			"eyes": "TRUE",
+			"mouth": "TRUE",
+			"front_leg": "TRUE",
+			"back_leg": "TRUE",
+			"tail": "TRUE",
+			"ears": "FALSE",
+			"head_accesory": "FALSE",
+			"neck_accesory": "FALSE",
+			"leg_accesory": "FALSE",
+			"decoration": "FALSE"
 		}
 	]
 }
