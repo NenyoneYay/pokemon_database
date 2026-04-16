@@ -15,7 +15,25 @@
 			"tail": "FALSE",
 			"ears": "TRUE",
 			"head_accesory": "TRUE",
-			"neck_accesory": "TRUE",
+			"neck_accesory": "FALSE",
+			"leg_accesory": "TRUE",
+			"decoration": "TRUE"
+		},
+		{
+			"ID_Number": "002", 
+			"name": "Ivysaur",
+			"type1": "Grass",
+			"type2": "Poison",
+			"head": "TRUE",
+			"body": "TRUE",
+			"eyes": "TRUE",
+			"mouth": "TRUE",
+			"front_leg": "TRUE",
+			"back_leg": "TRUE",
+			"tail": "FALSE",
+			"ears": "TRUE",
+			"head_accesory": "TRUE",
+			"neck_accesory": "FALSE",
 			"leg_accesory": "TRUE",
 			"decoration": "TRUE"
 		}
