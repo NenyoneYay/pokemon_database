@@ -10,8 +10,8 @@ with open('Database.json', 'r') as f:
 
 
 def main():
-    grassList = filterType(pokemonList, "Grass")
-    generatePokemon(grassList)
+    # grassList = filterType(pokemonList, "Grass")
+    generatePokemon(pokemonList)
     # generatePokemon(pokemonList)
     return
 
