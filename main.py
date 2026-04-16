@@ -10,68 +10,68 @@ with open('Database.json', 'r') as f:
 
 
 def main():
-    generatePokemon()
+    generatePokemon(pokemonList)
     return
 
-def generatePokemon():
-    randHead = getRandomPokemon(pokemonList)
+def generatePokemon(list):
+    randHead = getRandomPokemon(list)
     while (randHead["head"] != True):
-        randHead = getRandomPokemon(pokemonList)
+        randHead = getRandomPokemon(list)
     print (f"Head: {randHead["name"]}")
 
-    randBody = getRandomPokemon(pokemonList)
+    randBody = getRandomPokemon(list)
     while (randBody["body"] != True):
-        randBody = getRandomPokemon(pokemonList)
+        randBody = getRandomPokemon(list)
     print (f"Body: {randBody["name"]}")
 
-    randEyes = getRandomPokemon(pokemonList)
+    randEyes = getRandomPokemon(list)
     while (randEyes["eyes"] != True):
-        randEyes = getRandomPokemon(pokemonList)
+        randEyes = getRandomPokemon(list)
     print (f"Eyes: {randEyes["name"]}")
 
-    randMouth = getRandomPokemon(pokemonList)
+    randMouth = getRandomPokemon(list)
     while (randMouth["mouth"] != True):
-        randMouth = getRandomPokemon(pokemonList)
+        randMouth = getRandomPokemon(list)
     print (f"Mouth: {randMouth["name"]}")
 
-    randFrontLeg = getRandomPokemon(pokemonList)
+    randFrontLeg = getRandomPokemon(list)
     while (randFrontLeg["front_leg"] != True):
-        randFrontLeg = getRandomPokemon(pokemonList)
+        randFrontLeg = getRandomPokemon(list)
     print (f"FrontLeg: {randFrontLeg["name"]}")
 
-    randBackLeg = getRandomPokemon(pokemonList)
+    randBackLeg = getRandomPokemon(list)
     while (randBackLeg["back_leg"] != True):
-        randBackLeg = getRandomPokemon(pokemonList)
+        randBackLeg = getRandomPokemon(list)
     print (f"BackLeg: {randBackLeg["name"]}")
 
-    randTail = getRandomPokemon(pokemonList)
+    randTail = getRandomPokemon(list)
     while (randTail["tail"] != True):
-        randTail = getRandomPokemon(pokemonList)
+        randTail = getRandomPokemon(list)
     print (f"Tail: {randTail["name"]}")
 
-    randEars = getRandomPokemon(pokemonList)
+    randEars = getRandomPokemon(list)
     while (randEars["ears"] != True):
-        randEars = getRandomPokemon(pokemonList)
+        randEars = getRandomPokemon(list)
     print (f"Ears: {randEars["name"]}")
 
-    randHeadAccessory = getRandomPokemon(pokemonList)
+    randHeadAccessory = getRandomPokemon(list)
     while (randHeadAccessory["head_accessory"] != True):
-        randHeadAccessory = getRandomPokemon(pokemonList)
+        randHeadAccessory = getRandomPokemon(list)
     print (f"HeadAccessory: {randHeadAccessory["name"]}")
 
-    randNeckAccessory = getRandomPokemon(pokemonList)
+    randNeckAccessory = getRandomPokemon(list)
     while (randNeckAccessory["neck_accessory"] != True):
-        randNeckAccessory = getRandomPokemon(pokemonList)
+        randNeckAccessory = getRandomPokemon(list)
     print (f"NeckAccessory: {randNeckAccessory["name"]}")
 
-    randLegAccessory = getRandomPokemon(pokemonList)
+    randLegAccessory = getRandomPokemon(list)
     while (randLegAccessory["leg_accessory"] != True):
-        randLegAccessory = getRandomPokemon(pokemonList)
+        randLegAccessory = getRandomPokemon(list)
     print (f"LegAccessory: {randLegAccessory["name"]}")
 
-    randDecoration = getRandomPokemon(pokemonList)
+    randDecoration = getRandomPokemon(list)
     while (randDecoration["decoration"] != True):
-        randDecoration = getRandomPokemon(pokemonList)
+        randDecoration = getRandomPokemon(list)
     print (f"Decoration: {randDecoration["name"]}")
 
 
