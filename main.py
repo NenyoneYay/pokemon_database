@@ -10,7 +10,7 @@ with open('Database.json', 'r') as f:
 
 
 def main():
-    # grassList = filterType(pokemonList, "Grass")
+    grassList = filterType(pokemonList, "Grass")
     generatePokemon(pokemonList)
     # generatePokemon(pokemonList)
     return
@@ -75,6 +75,9 @@ def generatePokemon(list):
     while (randDecoration["decoration"] != True):
         randDecoration = getRandomPokemon(list)
     print (f"Decoration: {randDecoration["name"]}")
+
+    randColor = getRandomPokemon(list)
+    print(f"Color scheme: {randColor["name"]}")
 
 def filterType(list, type):
     filteredList = []
