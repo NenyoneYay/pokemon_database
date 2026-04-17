@@ -1,0 +1,21 @@
+{
+    "ID_Number": "152", 
+    "name": "Chikorita",
+    "type1": "Grass",
+    "type2": "NULL",
+    "head": true,
+    "body": true,
+    "eyes": true,
+    "mouth": true,
+    "front_leg": true,
+    "back_leg": true,
+    "tail": true,
+    "ears": false,
+    "head_accessory": true,
+    "neck_accessory": true,
+    "leg_accessory": false,
+    "decoration": false
+},
+{
+    
+}

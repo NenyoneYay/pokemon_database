@@ -1,7 +1,6 @@
 import json
 import random
 
-
 with open('Database.json', 'r') as f:
     pokemonDict = json.load(f)
     pokemonList = pokemonDict["Pokemon"]
@@ -9,11 +8,32 @@ with open('Database.json', 'r') as f:
 
 
 
+## MAIN ##
+
 def main():
     grassList = filterType(pokemonList, "Grass")
+    fireList = filterType(pokemonList, "Fire")
+    waterList = filterType(pokemonList, "Water")
+    electricList = filterType(pokemonList, "Electric")
+    psychicList = filterType(pokemonList, "Psychic")
+    iceList = filterType(pokemonList, "Ice")
+    dragonList = filterType(pokemonList, "Dragon")
+    darkList = filterType(pokemonList, "Dark")
+    fairyList = filterType(pokemonList, "Fairy")
+    normalList = filterType(pokemonList, "Normal")
+    fightingList = filterType(pokemonList, "Fighting")
+    flyingList = filterType(pokemonList, "Flying")
+    poisonList = filterType(pokemonList, "Poison")
+    groundList = filterType(pokemonList, "Ground")
+    rockList = filterType(pokemonList, "Rock")
+    bugList = filterType(pokemonList, "Bug")
+    ghostList = filterType(pokemonList, "Ghost")
+    steelList = filterType(pokemonList, "Steel")
     generatePokemon(pokemonList)
     # generatePokemon(pokemonList)
     return
+
+## DEFINE fUNCTIONS ##
 
 def generatePokemon(list):
     randHead = getRandomPokemon(list)
@@ -79,22 +99,16 @@ def generatePokemon(list):
     randColor = getRandomPokemon(list)
     print(f"Color scheme: {randColor["name"]}")
 
-def filterType(list, type):
+def filterType(list, type): ##Returns a list filtered by the type
     filteredList = []
     for pokemon in list:
         if ((pokemon["type1"] == type) or (pokemon["type2"] == type)):
             filteredList.append(pokemon)
     return filteredList
 
-
 def getRandomPokemon(pokemonList): ## Takes a List of dicts as a parameter, returns a single dict randomly from that list
     dictLength = len(pokemonList) ## Get the length of the list of Pokemon
     return pokemonList[random.randrange(dictLength)] ## Return a Pokemon from the list randomly
-
-
-
-
-
 
 
 
