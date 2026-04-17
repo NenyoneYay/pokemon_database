@@ -1,2 +1,19 @@
 Hello potato! Do you know the times?
 the times?
+
+"ID_Number": "", 
+			"name": "",
+			"type1": "",
+			"type2": "",
+			"head": ,
+			"body": ,
+			"eyes": ,
+			"mouth": ,
+			"front_leg": ,
+			"back_leg": ,
+			"tail": ,
+			"ears": ,
+			"head_accessory": ,
+			"neck_accessory": ,
+			"leg_accessory": ,
+			"decoration": 
