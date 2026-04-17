@@ -29,72 +29,97 @@ def main():
     bugList = filterType(pokemonList, "bug")
     ghostList = filterType(pokemonList, "ghost")
     steelList = filterType(pokemonList, "steel")
-    generatePokemon(pokemonList)
+    generatePokemon(waterList)
     # generatePokemon(pokemonList)
     return
 
 ## DEFINE fUNCTIONS ##
 
 def generatePokemon(list):
+    limit = 0
     randHead = getRandomPokemon(list)
-    while (randHead["head"] != True):
+    while ((randHead["head"] != True)and(limit < 2000)):
         randHead = getRandomPokemon(list)
+        limit += 1
     print (f"Head: {randHead["name"]}")
+    limit = 0
 
     randBody = getRandomPokemon(list)
-    while (randBody["body"] != True):
+    while ((randBody["body"] != True)and(limit < 2000)):
         randBody = getRandomPokemon(list)
+        limit += 1
     print (f"Body: {randBody["name"]}")
+    limit = 0
 
     randEyes = getRandomPokemon(list)
-    while (randEyes["eyes"] != True):
+    while ((randEyes["eyes"] != True)and(limit < 2000)):
         randEyes = getRandomPokemon(list)
+        limit += 1
     print (f"Eyes: {randEyes["name"]}")
+    limit = 0
 
     randMouth = getRandomPokemon(list)
-    while (randMouth["mouth"] != True):
+    while ((randMouth["mouth"] != True)and(limit < 2000)):
         randMouth = getRandomPokemon(list)
+        limit += 1
     print (f"Mouth: {randMouth["name"]}")
+    limit = 0
 
     randFrontLeg = getRandomPokemon(list)
-    while (randFrontLeg["front_leg"] != True):
+    while ((randFrontLeg["front_leg"] != True)and(limit < 2000)):
         randFrontLeg = getRandomPokemon(list)
-    print (f"FrontLeg: {randFrontLeg["name"]}")
+        limit += 1
+    print (f"Front Leg: {randFrontLeg["name"]}")
+    limit = 0
 
     randBackLeg = getRandomPokemon(list)
-    while (randBackLeg["back_leg"] != True):
+    while ((randBackLeg["back_leg"] != True)and(limit < 2000)):
         randBackLeg = getRandomPokemon(list)
-    print (f"BackLeg: {randBackLeg["name"]}")
+        limit += 1
+    print (f"Back Leg: {randBackLeg["name"]}")
+    limit = 0
 
     randTail = getRandomPokemon(list)
-    while (randTail["tail"] != True):
+    while ((randTail["tail"] != True)and(limit < 2000)):
         randTail = getRandomPokemon(list)
+        limit += 1
     print (f"Tail: {randTail["name"]}")
+    limit = 0
 
     randEars = getRandomPokemon(list)
-    while (randEars["ears"] != True):
+    while ((randEars["ears"] != True)and(2000)):
         randEars = getRandomPokemon(list)
+        limit += 1
     print (f"Ears: {randEars["name"]}")
+    limit = 0
 
     randHeadAccessory = getRandomPokemon(list)
-    while (randHeadAccessory["head_accessory"] != True):
+    while ((randHeadAccessory["head_accessory"] != True)and(limit < 2000)):
         randHeadAccessory = getRandomPokemon(list)
-    print (f"HeadAccessory: {randHeadAccessory["name"]}")
+        limit += 1
+    print (f"Head Accessory: {randHeadAccessory["name"]}")
+    limit = 0
 
     randNeckAccessory = getRandomPokemon(list)
-    while (randNeckAccessory["neck_accessory"] != True):
+    while ((randNeckAccessory["neck_accessory"] != True)and(limit < 2000)):
         randNeckAccessory = getRandomPokemon(list)
-    print (f"NeckAccessory: {randNeckAccessory["name"]}")
+        limit += 1
+    print (f"Neck Accessory: {randNeckAccessory["name"]}")
+    limit = 0
 
     randLegAccessory = getRandomPokemon(list)
-    while (randLegAccessory["leg_accessory"] != True):
+    while ((randLegAccessory["leg_accessory"] != True)and(limit < 2000)):
         randLegAccessory = getRandomPokemon(list)
-    print (f"LegAccessory: {randLegAccessory["name"]}")
+        limit += 1
+    print (f"Leg Accessory: {randLegAccessory["name"]}")
+    limit = 0
 
     randDecoration = getRandomPokemon(list)
-    while (randDecoration["decoration"] != True):
+    while ((randDecoration["decoration"] != True)and(limit < 2000)):
         randDecoration = getRandomPokemon(list)
+        limit += 1
     print (f"Decoration: {randDecoration["name"]}")
+    limit = 0
 
     randColor = getRandomPokemon(list)
     print(f"Color scheme: {randColor["name"]}")
