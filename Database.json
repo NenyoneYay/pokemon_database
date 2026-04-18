@@ -4311,7 +4311,7 @@
 			"head": true,
 			"body": true,
 			"eyes": true,
-			"mouth": ,
+			"mouth": true,
 			"front_leg": true,
 			"back_leg": true,
 			"tail": true,
