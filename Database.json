@@ -4518,6 +4518,24 @@
 			"neck_accessory": false,
 			"leg_accessory": false,
 			"decoration": true
+		},
+		{
+			"ID_Number": "252", 
+			"name": "Treecko",
+			"type1": "grass",
+			"type2": "NULL",
+			"head": true,
+			"body": true,
+			"eyes": true,
+			"mouth": true,
+			"front_leg": true,
+			"back_leg": true,
+			"tail": true,
+			"ears": false,
+			"head_accessory": false,
+			"neck_accessory": false,
+			"leg_accessory": false,
+			"decoration": true
 		}
 	]
 }
